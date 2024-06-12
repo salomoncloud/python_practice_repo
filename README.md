@@ -1,1 +1,1 @@
-gonna start practicing python here along side gcp
+gonna start practicing python here along side IaC
