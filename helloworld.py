@@ -1,4 +1,5 @@
-# print("Hello World")
+print("Hello World")
+
 def greet(name):
     return f"hello, {name}!"
 
@@ -50,3 +51,8 @@ number2 = int(input2)
 result = multiply_numbers(number1, number2)
 
 print("After multiplying we get:", result)
+
+# literals
+# can be integers like octal numbers or hexidecimal numbers, floating point numbers, stings, booleans
+# operators 
+# arithmetic (* or **, / or //, % modulo [remainders], +, - ) 
