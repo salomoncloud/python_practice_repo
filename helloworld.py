@@ -14,6 +14,7 @@ def name_and_amount(name, amount):
 
 print(name_and_amount("Jeff Bezos", 14489271073))
 
+
 def calculate_sum(numbers):
     return sum(numbers)
 input_numbers = input("Enter numbers separated by spaces: ")
@@ -21,3 +22,29 @@ input_numbers = input("Enter numbers separated by spaces: ")
 numbers_list = list(map(int, input_numbers.split()))
 total_sum = calculate_sum(numbers_list)
 print("The sum of the numbers is:", total_sum)
+
+def subtract_numbers(num1, num2):
+    return num1 - num2
+
+input1 = input("Enter your first number: ")
+input2 = input("Enter a second number: ")
+
+number1 = int(input1)
+number2 = int(input2)
+
+result = subtract_numbers(number1, number2)
+
+print("The result of the subtraction is:", result)
+
+def multiply_numbers(num1, num2):
+    return num1 * num2
+
+input1 = input("starting with: ")
+input2 = input("and than: ")
+
+number1 = int(input1)
+number2 = int(input2)
+
+result = multiply_numbers(number1, number2)
+
+print("After multiplying we get:", result)
