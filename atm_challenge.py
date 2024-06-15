@@ -1,14 +1,14 @@
-# creating an atm 
-
 def atm_booth():
-    #Step 1 is getting user information
+    print("ATM Booth function started")
+    #bank customer
     first_name = input("Enter your first name: ")
     last_name = input("Enter your last name: ")
     dob = input("Enter your date of birth (DD/MM/YYYY): ")
+    print(f"Received user info: {first_name} {last_name}, DOB: {dob}")
 
-    balance = 0  #balance at start
+    balance = 0  
 
-    #ATM operation
+    #atm operation
     while True:
         print(f"Welcome {first_name}, what would you like to do today?")
         print("1. Deposit")
@@ -16,9 +16,10 @@ def atm_booth():
         print("3. Take out the card")
         
         choice = input("Enter the number of your choice: ")
-        
+        print(f"User choice: {choice}")
+
         if choice == '1':
-            #Deposit option
+            #deposit
             try:
                 deposit_amount = float(input("How much money would you like to deposit? "))
                 if deposit_amount > 0:
@@ -30,7 +31,7 @@ def atm_booth():
                 print("Please enter a valid amount.")
         
         elif choice == '2':
-            #Withdrawal
+            #takeout
             try:
                 withdraw_amount = float(input("How much money would you like to withdraw? "))
                 if withdraw_amount > balance:
@@ -46,9 +47,11 @@ def atm_booth():
                 print("Please enter a valid amount.")
         
         elif choice == '3':
-            #Removal of card
+            #pullout
             print(f"Thank you so much, have a wonderful day {first_name}.")
             break
         
         else:
             print("Invalid choice. Please select a valid option.")
+    print("End of ATM Booth function")
+atm_booth()
