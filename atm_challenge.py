@@ -1,5 +1,5 @@
 def atm_booth():
-    print("ATM Booth function started")
+    print("Welcome to BNC")
     #bank customer
     first_name = input("Enter your first name: ")
     last_name = input("Enter your last name: ")
@@ -53,5 +53,5 @@ def atm_booth():
         
         else:
             print("Invalid choice. Please select a valid option.")
-    print("End of ATM Booth function")
+    print("End of ATM BNC")
 atm_booth()
