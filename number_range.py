@@ -7,3 +7,4 @@ def check_number_range():
             print("The number is not between 250 and 500.")
     except ValueError:
         print("Please enter a valid number.")
+check_number_range()
