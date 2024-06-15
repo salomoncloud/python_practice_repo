@@ -3,3 +3,5 @@
 # specialized data types - special modules 
 # none - means nothing, zero, no value
 # gonna practice math functions here
+print(type(2 + 4))
+print(type(2 / 4))
