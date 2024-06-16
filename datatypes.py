@@ -16,3 +16,6 @@ print(20 - 3 * 4)
 # (), than ** power of, than * and /, thans last is + - 
 print((5 + 4) * 10 / 2)
 # would be 45
+# complex is another data type used to create a complex number from a real part and an optional imaginary part
+# bin is for binary, used to store numbers in memory as binary
+print(bin(14012846))
