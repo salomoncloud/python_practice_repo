@@ -26,3 +26,7 @@ print(ticket_buyers)
 # will equal 100
 seats_taken = ticket_buyers
 print(seats_taken)
+theatre1, theatre2, theatre3 = 11, 22, 33
+print(theatre1)
+print(theatre2)
+print(theatre3) 
