@@ -19,3 +19,10 @@ print((5 + 4) * 10 / 2)
 # complex is another data type used to create a complex number from a real part and an optional imaginary part
 # bin is for binary, used to store numbers in memory as binary
 print(bin(14012846))
+# playing with variables 
+tickets = 200
+ticket_buyers = tickets/2
+print(ticket_buyers)
+# will equal 100
+seats_taken = ticket_buyers
+print(seats_taken)
