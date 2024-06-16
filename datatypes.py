@@ -5,3 +5,8 @@
 # gonna practice math functions here
 print(type(2 + 4))
 print(type(2 / 4))
+
+# math functions
+print(round(3.1))
+print(abs(-20))
+print(abs(-1))
