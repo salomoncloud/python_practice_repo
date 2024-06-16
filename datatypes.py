@@ -10,3 +10,7 @@ print(type(2 / 4))
 print(round(3.1))
 print(abs(-20))
 print(abs(-1))
+
+# operator precendence - different operators have precendents over others, like bedmas for example
+print(20 - 3 * 4)
+# (), than ** power of, than * and /, thans last is + - 
