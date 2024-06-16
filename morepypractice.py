@@ -9,3 +9,9 @@ random_value = 5
 random_value += 2
 
 print(random_value)
+
+# string manipulations
+first_name = "Salomon"
+last_name = "Lubin"
+full_name = first_name + " " + last_name
+print(full_name)
