@@ -9,3 +9,4 @@ def factorial(n):
 result = factorial(3)
 # starts the recursion process to calculate the factorial
 print(result)
+# so a good example to think of is inception with its layers of dreams - note that down
