@@ -1,10 +1,10 @@
 import random
 
 def age_prediction_game():
-    # Ask the player to input the initial amount of money to start the game
+    # the users bet
     balance = float(input("How much will you bet!: $"))
     
-    # Keep the game running as long as the player's balance is greater than zero
+    # game will keep running so long as the user has money
     while balance > 0:
         # Generate a random number between 1 and 10
         random_int = random.randint(1, 10)
@@ -19,7 +19,7 @@ def age_prediction_game():
             if guess == random_int:
                 print("You hit the jackpot 🎰, you get to win $100!")
                 balance += 100
-                break  # Exit the guessing loop if the player guesses correctly
+                break  # Exit the loop if the player guesses correctly
             elif guess > random_int:
                 print("The number you have selected is higher than the actual number.")
             else:
@@ -27,11 +27,11 @@ def age_prediction_game():
             
             # if they guess wrong of course
             if guesses == max_guesses:
-                print("You've used all your guesses. Charging a $25 penalty.")
+                print("You've used all your guesses. gimme 25 big guy.")
                 balance -= 25
         
         if guess != random_int:
-            print("Sorry, you didn't guess the number. Deducting $50.")
+            print("Sorry, you didn't guess the number. 50's in palm. Now.")
             balance -= 50
 
         # Display the player's current balance
