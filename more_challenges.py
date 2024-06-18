@@ -50,4 +50,25 @@ else:
        # increment the counter by 1
        count += 1
 
+# common elements between two lists
+# both sets using intersection function
+# sets
+def common_member(a, b): 
+	a_set = set(a)
+	b_set = set(b)
+	
+	# check length 
+	if len(a_set.intersection(b_set)) > 0:
+		return(a_set.intersection(b_set)) 
+	else:
+		return("no common elements")
+	
+
+a = [1, 2, 3, 4, 5]
+b = [5, 6, 7, 8, 9]
+print(common_member(a, b))
+
+a =[405, 66, 2, 1111, 5]
+b =[648, 22, 38, 5]
+print(common_member(a, b))
 
