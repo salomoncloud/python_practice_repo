@@ -72,3 +72,13 @@ a =[405, 66, 2, 1111, 5]
 b =[648, 22, 38, 5]
 print(common_member(a, b))
 
+# a function to sum all the numbers in a list
+
+numbers_in_list = [1,2,3,4,5,1,4,5]
+
+Sum = sum(numbers_in_list)
+print(Sum)
+
+Sum = sum(numbers_in_list, 10)
+print(Sum)
+
