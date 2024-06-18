@@ -58,7 +58,6 @@ while balance > 0:
             if play_again != 'yes':
                 print("Thank you for playing! Goodbye.")
                 break  # Exit the main game loop if the player chooses not to play again
-
+    # code will only run if the script is executed directly, not if it is imported as a module
 if __name__ == "__main__":
     age_prediction_game()
-    # code will only run if the script is executed directly, not if it is imported as a module
