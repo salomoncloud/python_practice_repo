@@ -29,10 +29,13 @@ def age_prediction_game():
             if guesses == max_guesses:
                 print("You've used all your guesses. gimme 25 big guy.")
                 balance -= 25
+                print(f"Wrong guess, idiot! $25 penalty applied. Current balance: ${balance}")
         
-        if guess != random_int:
+        if guess != random_int and balance > 0:
             print("Sorry, you didn't guess the number. 50's in palm. Now.")
             balance -= 50
+            print(f"Additional penalty applied. Current balance: ${balance}")
+
 
         # Display the player's current balance
         print(f"Your current balance is: ${balance}")
@@ -50,7 +53,7 @@ def age_prediction_game():
             # ask the player if they want to play again
             play_again = input("Do you want to play again? Type 'yes' to play again or 'no' to quit: ").strip().lower()
             if play_again != 'yes':
-                print("Thank you for playing! Goodbye.")
+                print("Better luck next time, pal.")
                 break  # Exit the main game loop if the player chooses not to play again
 
 # code will only run if the script is executed directly, not if it is imported as a module
