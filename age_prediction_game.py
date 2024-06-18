@@ -52,3 +52,13 @@ while balance > 0:
         elif choice == 'quit':
                 print("Smart move, go home.")
                 break
+        else:
+            # ask the player if they want to play again
+            play_again = input("Do you want to play again? Type 'yes' to play again or 'no' to quit: ").strip().lower()
+            if play_again != 'yes':
+                print("Thank you for playing! Goodbye.")
+                break  # Exit the main game loop if the player chooses not to play again
+
+if __name__ == "__main__":
+    age_prediction_game()
+    # code will only run if the script is executed directly, not if it is imported as a module
