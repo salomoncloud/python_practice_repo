@@ -59,3 +59,4 @@ def age_prediction_game():
 # code will only run if the script is executed directly, not if it is imported as a module
 if __name__ == "__main__":
     age_prediction_game()
+# im having trouble getting the penalties to show up after every round, will try again later
