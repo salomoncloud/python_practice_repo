@@ -43,7 +43,8 @@ while balance > 0:
         if balance <= 0:
             print("Your broke!")
             choice = input("Do you want to add more money or do the smart thing and save your money for rainy days? Type 'im an idiot' to add more money or 'quit' to quit: ").strip().lower()
-
+# strip helps remove spaces from user input
+# lower converts user input to lower case
         if choice == 'add':
                 additional_money = float(input("Enter your bet!: $"))
                 balance += additional_money
