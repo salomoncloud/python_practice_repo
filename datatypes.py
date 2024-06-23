@@ -30,3 +30,10 @@ theatre1, theatre2, theatre3 = 11, 22, 33
 print(theatre1)
 print(theatre2)
 print(theatre3) 
+
+# type conversion
+print(type(str(100)))
+a = str(100)
+b = int(a)
+c = type(b)
+print(c)
