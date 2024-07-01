@@ -53,3 +53,4 @@ print (salomonlubin[1:8])
 # ex 
 random_set_of_digits = '01234567'
 print (random_set_of_digits[0:8:2])
+# in python, if we add a - (negative) index, it will start at the end of the string, for ex (salomonlubin[-7])
