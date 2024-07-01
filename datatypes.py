@@ -43,3 +43,9 @@ print(c)
 salomonlubin = 'this is my name'
 print (salomonlubin[2])
 # now when you print this it will give you 'i' because that is the 3rd letter in the string
+
+# a python rule, when we use [], the first item between those [] is what we call the start, that means where do we want the code to look.
+# but also if we do [start:stop] (adding a colon) we can tell the code where to stop
+# ex
+print (salomonlubin[1:8])
+# should give you 'his is' because it will start at index 1 and end at 8
