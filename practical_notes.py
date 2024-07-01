@@ -33,3 +33,5 @@ veggies = ['brocoli',
 
 # list slicing - similar to string slicing with the stop start and stepover
 # print(fruits[0::2]) this would skip over every second one
+# fruits[2] = 'kiwis' lists are muttable so here I would be changing bananas to kiwis
+# print(fruits[0:])
