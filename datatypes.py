@@ -37,3 +37,9 @@ a = str(100)
 b = int(a)
 c = type(b)
 print(c)
+
+# string indexes, basically similar to what you learned in terraform, the first letter being index 0, second is 1, etc
+# example
+salomonlubin = 'this is my name'
+print (salomonlubin[2])
+# now when you print this it will give you 'i' because that is the 3rd letter in the string
