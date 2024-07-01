@@ -61,4 +61,11 @@ print (random_set_of_digits[0:8:2])
 
 # built in functions and methods
 # covered some earlier but here are some more
-print(len('cloudcomputingishard'))
+print(len('cloudcomputingishard')) # counts the length in human form
+greet = 'hellohello'
+print(greet[0:])
+# methods have a special syntax, they start with a dot usually
+quote = 'hard work pays off'
+print(quote.upper())
+print(quote.capitalize ())
+print(quote.find ("off"))
