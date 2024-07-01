@@ -49,3 +49,7 @@ print (salomonlubin[2])
 # ex
 print (salomonlubin[1:8])
 # should give you 'his is' because it will start at index 1 and end at 8
+# next thing is stepover, this is like [start:stop:stepover] so after stopping it can step over
+# ex 
+random_set_of_digits = '01234567'
+print (random_set_of_digits[0:8:2])
