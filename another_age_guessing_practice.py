@@ -1,3 +1,3 @@
-birth_year = input ('what year were you born in?')
-age = 2024 - int(birth_year)
-print(f"your age is: {age}")
+birth_year = input ('what year were you born in?') # here im creating a variable called birth year to get the value and than converting that string to an integer
+age = 2024 - int(birth_year) # here with the age variable i will subtract the current year with my birth year i got from the last var
+print(f"your age is: {age}") # here i add the f before the string to let the code know i will be running a function in the string which is the calculation of the age var
