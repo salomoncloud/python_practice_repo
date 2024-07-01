@@ -54,3 +54,11 @@ print (salomonlubin[1:8])
 random_set_of_digits = '01234567'
 print (random_set_of_digits[0:8:2])
 # in python, if we add a - (negative) index, it will start at the end of the string, for ex (salomonlubin[-7])
+
+# immutability in programming means things cannot be changed
+# for example, how we assigned my name as a string, after printing we will get this is my name, and we cant manipulate this or change it
+# the only way is to completely re-assign the value
+
+# built in functions and methods
+# covered some earlier but here are some more
+print(len('cloudcomputingishard'))
