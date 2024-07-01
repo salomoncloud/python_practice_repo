@@ -69,3 +69,4 @@ quote = 'hard work pays off'
 print(quote.upper())
 print(quote.capitalize ())
 print(quote.find ("off"))
+print(quote.replace ('work', 'work will'))
