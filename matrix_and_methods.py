@@ -35,5 +35,9 @@ print(parking_spots) # removes 100 at the end of the list, you can also specify 
 
 # index
 # print(digits.index(2)) will tell you what is at the index mentioned
-print(digits.index(3, 0, 4))
+print(digits.index(3, 0, 4)) # starting by telling your function what you need, than start section and end
 
+# to look for something in a list
+print(500 in special_plates)
+#it will say false, works the same for ex: 
+print("w" in "I will get hired by google one day")
