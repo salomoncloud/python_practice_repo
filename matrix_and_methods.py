@@ -18,7 +18,7 @@ parking_spots.append(100)
 print(parking_spots)
 # this will add 100 to the list at the end
 
-digits = [1,2,3,4,5]
+digits = [1,2,3,4,5,1]
 digits.insert(4, 100)
 print(digits)
 # this will insert 100 at the index of 4
@@ -41,3 +41,6 @@ print(digits.index(3, 0, 4)) # starting by telling your function what you need, 
 print(500 in special_plates)
 #it will say false, works the same for ex: 
 print("w" in "I will get hired by google one day")
+
+#count
+print(digits.count(1))
