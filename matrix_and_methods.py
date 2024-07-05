@@ -14,4 +14,5 @@ print(matrix[0][1])
 parking_spots = [1,2,3,4,5]
 
 #adding
-print(parking_spots.append(100))
+parking_spots.append(100)
+print(parking_spots)
