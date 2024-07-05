@@ -31,5 +31,9 @@ print(special_plates)
 #removing methods
 parking_spots.pop()
 print(parking_spots) # removes 100 at the end of the list, you can also specify in the () the index to be specific
+# theres also remove and clear
 
+# index
+# print(digits.index(2)) will tell you what is at the index mentioned
+print(digits.index(3, 0, 4))
 
