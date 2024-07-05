@@ -27,3 +27,9 @@ special_plates = [10,20,30,40,50]
 special_plates.extend([150,250])
 print(special_plates)
 # extends the list with whatever you added - iterates over list
+
+#removing methods
+parking_spots.pop()
+print(parking_spots) # removes 100 at the end of the list, you can also specify in the () the index to be specific
+
+
