@@ -16,3 +16,14 @@ parking_spots = [1,2,3,4,5]
 #adding
 parking_spots.append(100)
 print(parking_spots)
+# this will add 100 to the list at the end
+
+digits = [1,2,3,4,5]
+digits.insert(4, 100)
+print(digits)
+# this will insert 100 at the index of 4
+
+special_plates = [10,20,30,40,50]
+special_plates.extend([150,250])
+print(special_plates)
+# extends the list with whatever you added - iterates over list
