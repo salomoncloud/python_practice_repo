@@ -54,3 +54,8 @@ print(parking_spots)
 print(sorted(parking_spots))
 # sorted produces a new array, but if you print the list without sorted it will revert back to og
 
+# reverse, does as its name implies - reversing in place
+special_plates.sort()
+special_plates.reverse()
+print(special_plates)
+# this will sort in reverse
