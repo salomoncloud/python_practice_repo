@@ -12,7 +12,7 @@ print(dictionary['player name']) # will print star_destroyer
 
 # dictionary methods - a good way to access a key to see if it exists is to use .get
 # ex
-# print(dictionary.get('power')) this will return None
+print(dictionary.get('power')) # this will return None
 # you can also do print(dictionary.get('power', 100)) - by adding the 100, your adding a default value
 # ex- if power level is not found, it will make 100 the power level by default, but if power is assigned already, it will use og
 
