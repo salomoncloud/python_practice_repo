@@ -5,3 +5,5 @@ dictionary = {
 }
 
 print(dictionary['player name'])
+# for the key values in dictionary, you can use strings, boolean, and numbers
+# key needs to be immutable, so it cant change, thats why we cant use lists for key value
