@@ -20,3 +20,10 @@ print(dictionary.get('power')) # this will return None
 
 players = dict(name='young_vader25')
 print(players)
+
+# we can use 'in' with dictionary to view if certain things can be found in them
+#ex
+
+print('power' in dictionary.keys()) # will check if power is one of the keys in the dict
+print('power' in dictionary.values()) # same thing but for values
+
