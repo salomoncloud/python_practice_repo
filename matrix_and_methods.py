@@ -108,3 +108,8 @@ dictionary = {
 #to access these:
 print(dictionary['b'])
 # dictionaries can be a mix of different data types, like boolean, string, number, and can also have multiple arrays in list form
+
+# when to use a list and when to use a dictionary
+# dictionary is not sorted, no order, list has order, so for example a list is good for a list of people in line for tickets or something
+# or for a game session where a player may have rank, user, weapons displayed - this doesnt have to be ordered
+# lists only has the index and whatever value it is, but a dictionary holds a lot more info and holds the keys to it
