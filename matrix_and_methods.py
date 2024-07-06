@@ -94,3 +94,16 @@ print(c)
 # what if we have a longer list but only want the first 3 to have individual variables, but the rest under one variable?
 e,f,g,*other = [4,5,6,7,8,9]
 print(other)
+
+# none - used to represent the absence of value, for example
+weapons = None # like how in a game we start off with no weapons
+
+# dictionary - dict - data type/data structure, looks like:
+
+dictionary = {
+'a': 1,
+'b': 2
+}
+# curly braces are for dictionaries, and they work with key/value pairs
+#to access these:
+print(dictionary['b'])
