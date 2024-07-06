@@ -107,4 +107,4 @@ dictionary = {
 # curly braces are for dictionaries, and they work with key/value pairs and are unordered
 #to access these:
 print(dictionary['b'])
-# dictionaries can be a mix of different data types, like boolean, string, number
+# dictionaries can be a mix of different data types, like boolean, string, number, and can also have multiple arrays in list form
