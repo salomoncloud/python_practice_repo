@@ -24,7 +24,7 @@ print(digits)
 # this will insert 100 at the index of 4
 
 special_plates = [10,20,30,40,50]
-special_plates.extend([150,250])
+special_plates.extend([1000,200,150,250])
 print(special_plates)
 # extends the list with whatever you added - iterates over list
 
@@ -59,3 +59,22 @@ special_plates.sort()
 special_plates.reverse()
 print(special_plates)
 # this will sort in reverse
+
+# common list patterns
+special_plates.sort()
+special_plates.reverse()
+print(special_plates[::-1])
+# line by line, i sorted so its in order, than reversed, than reversed again but instead of being in reverse its now in order
+# as a refresher, :: is slicing the list- start:stop:indexjump is the rule
+
+# range
+# generating a list quickly, ex:
+# print(list(range(1,100)))
+# its going to generate a full list from 1-99 in list form, and you can even just leave 100 and it will do the same
+
+# .join
+# this works on strings, ex:
+sentence = ' ' # an empty space
+final_sentence = sentence.join(['hey', 'python', 'is', 'fun'])
+print(final_sentence)
+# this will create a sentence that will have a space between each string created, joining the space with the strings
