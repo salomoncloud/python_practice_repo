@@ -81,3 +81,16 @@ print(final_sentence)
 # what you could have done actually is simply this:
 morning_news = ' '.join(['world', 'peace', 'is', 'here'])
 print(morning_news)
+
+# list unpacking 
+#ex list:
+# basket = [1,2,3] what if i want to assign a variable to each item?
+# this is how
+a,b,c = [1,2,3]
+print(a)
+print(b)
+print(c)
+
+# what if we have a longer list but only want the first 3 to have individual variables, but the rest under one variable?
+e,f,g,*other = [4,5,6,7,8,9]
+print(other)
