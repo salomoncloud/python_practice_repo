@@ -11,7 +11,7 @@ matrix = [
 print(matrix[0][1])
 
 # actions that you can take on a list - methods
-parking_spots = [1,2,3,4,5]
+parking_spots = [1,2,3,4,5,2,90,3]
 
 #adding
 parking_spots.append(100)
@@ -44,3 +44,13 @@ print("w" in "I will get hired by google one day")
 
 #count
 print(digits.count(1))
+
+#sort
+parking_spots.sort()
+print(parking_spots)
+# this will sort things in order, moving bigger numbers to the back end of the list for example
+
+#sorted will do the same but less lines of code because its a function
+print(sorted(parking_spots))
+# sorted produces a new array, but if you print the list without sorted it will revert back to og
+
