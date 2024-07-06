@@ -104,6 +104,6 @@ dictionary = {
 'a': 1,
 'b': 2
 }
-# curly braces are for dictionaries, and they work with key/value pairs
+# curly braces are for dictionaries, and they work with key/value pairs and are unordered
 #to access these:
 print(dictionary['b'])
