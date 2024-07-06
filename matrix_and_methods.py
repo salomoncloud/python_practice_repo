@@ -78,3 +78,6 @@ sentence = ' ' # an empty space
 final_sentence = sentence.join(['hey', 'python', 'is', 'fun'])
 print(final_sentence)
 # this will create a sentence that will have a space between each string created, joining the space with the strings
+# what you could have done actually is simply this:
+morning_news = ' '.join(['world', 'peace', 'is', 'here'])
+print(morning_news)
