@@ -13,3 +13,11 @@ x = tuple_list[0]
 y = tuple_list[1]
 print(x) # x will equal to 1,2
 print(y) # y will equal to 3,4
+
+#a shorter way to do this^
+
+a,b,c, *other = (5,10,15,20,25,30)
+print(a)
+print(b)
+print(c)
+print(other)
