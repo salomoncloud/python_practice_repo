@@ -29,3 +29,11 @@ print(other.count(20)) # will say 2 because there are 2 20's in other
 
 # index
 print(other.index(30)) # will print out 3 as this is the index of 30 in other
+
+
+# sets
+# unordered collections of unique objects
+# ex - similar to dictionary we use {} but instead of key value its just value
+my_set = {1,2,3,4,5,5}
+print(my_set) # will not return duplicates, everything is unique
+
