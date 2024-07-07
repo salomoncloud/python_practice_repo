@@ -37,3 +37,5 @@ print(other.index(30)) # will print out 3 as this is the index of 30 in other
 my_set = {1,2,3,4,5,5}
 print(my_set) # will not return duplicates, everything is unique
 
+# to make a list into a set and remove duplicates from that list, simply do set(list) method
+# could be useful when a website has email addresses that may be duplicate, you could convert that list into set to not spam email over and over
