@@ -26,3 +26,6 @@ print(other)
 
 # count
 print(other.count(20)) # will say 2 because there are 2 20's in other
+
+# index
+print(other.index(30)) # will print out 3 as this is the index of 30 in other
