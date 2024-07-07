@@ -27,3 +27,18 @@ print(players)
 print('power' in dictionary.keys()) # will check if power is one of the keys in the dict
 print('power' in dictionary.values()) # same thing but for values
 
+# other dict methods
+
+# print(dictionary.clear()) this will empty the dictionary - same thing for doing:
+# dictionary.clear()
+# print(dictionary) 
+# dictionary will be empty
+
+#copy
+players_nextgen = players.copy()
+print(players_nextgen) # will copy a dictionary
+
+# pop will remove key and value from dictionary
+# ex print(user.pop('name of key you want elimanted'))
+
+# popitem - pops up last key and value
