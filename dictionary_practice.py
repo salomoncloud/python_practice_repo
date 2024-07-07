@@ -42,3 +42,8 @@ print(players_nextgen) # will copy a dictionary
 # ex print(user.pop('name of key you want elimanted'))
 
 # popitem - pops up last key and value
+
+# update will update a key value
+# ex
+print(dictionary.update({'positive_kd':True}))
+print(dictionary)
