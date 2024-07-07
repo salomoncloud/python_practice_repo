@@ -52,8 +52,8 @@ print(set_of_nums.difference(second_set_of_nums)) # will find the differences be
 #print(set_of_nums.difference_update(second_set_of_nums))
 #print(set_of_nums) differences are removed between the 2 sets
 
-print(set_of_nums.intersection(second_set_of_nums)) #will print the common things between 2 sets, in this case 30
+print(set_of_nums.intersection(second_set_of_nums)) #will print the common things between 2 sets, in this case 30 -  can also use &
 
 print(set_of_nums.isdisjoint(second_set_of_nums)) # asks if they are overlapping, nothing in common, because of 30 it will be false
 
-print(set_of_nums.union(second_set_of_nums)) # will join both sets and removed duplicates
+print(set_of_nums.union(second_set_of_nums)) # will join both sets and removed duplicates -  you can also use the pipe | to do this like in linux
