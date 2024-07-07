@@ -57,3 +57,6 @@ print(set_of_nums.intersection(second_set_of_nums)) #will print the common thing
 print(set_of_nums.isdisjoint(second_set_of_nums)) # asks if they are overlapping, nothing in common, because of 30 it will be false
 
 print(set_of_nums.union(second_set_of_nums)) # will join both sets and removed duplicates -  you can also use the pipe | to do this like in linux
+
+#.issubset
+#.issuperset
