@@ -8,4 +8,4 @@ if is_old:
 elif is_licenced:
     print('You are qualified to drive')
 else:
-    print('Your parents have been called')
+    print('You are not eligible to drive')
