@@ -3,9 +3,7 @@
 is_old = True
 is_licenced = True
 
-if is_old:
+if is_old and is_licenced:
     print("you are old enough to drive this car")
-elif is_licenced:
-    print('You are qualified to drive')
 else:
     print('You are not eligible to drive')
