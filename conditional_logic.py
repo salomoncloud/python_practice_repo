@@ -5,5 +5,7 @@ is_licenced = True
 
 if is_old:
     print("you are old enough to drive this car")
+elif is_licenced:
+    print('You are qualified to drive')
 else:
     print('Your parents have been called')
