@@ -25,6 +25,18 @@ if is_friend or is_user:
     print("Friends")
 
 # basically our python code will look at the first condition, for ex, here because is_friend is true it wont look at user
-# logical operators < > == 
+# logical operators < > == != => =< and or not
 # example of short circuiting using logical operators
 print(1 < 2 > 3 < 4)
+
+# excercise - imagine you work for ea sports and your working on a new nhl game - be a pro mode, at the nhl draft
+is_Forward = False
+is_top_prospect = True
+is_top_scorer = True
+if is_Forward and is_top_prospect:
+    print("You've been selected in the first round!")
+else:
+    print("You will be picked later in the first round.")
+
+draft_results = "You're going first overall" if is_top_scorer else "You will slip to the second round"
+print(draft_results)
