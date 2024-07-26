@@ -23,3 +23,5 @@ print(can_message)
 is_user = True
 if is_friend or is_user:
     print("Friends")
+
+# basically will go either way of the or, depending on which is true, for ex, here because is_friend is true it wont look at user
