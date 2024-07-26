@@ -21,5 +21,5 @@ print(can_message)
 
 # short circuiting
 is_user = True
-if is_friend and is_user:
+if is_friend or is_user:
     print("Friends")
