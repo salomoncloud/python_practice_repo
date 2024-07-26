@@ -40,3 +40,11 @@ else:
 
 draft_results = "You're going first overall!" if is_top_scorer else "You will slip to the second round"
 print(draft_results)
+
+# another example
+
+is_criminal = False
+is_innocent = True
+
+if is_innocent and not is_criminal:
+    print("You're free to go")
