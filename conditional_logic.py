@@ -18,3 +18,8 @@ else:
 is_friend = True
 can_message = "Message allowed" if is_friend else "Not allowed to message"
 print(can_message)
+
+# short circuiting
+is_user = True
+if is_friend and is_user:
+    print("Friends")
