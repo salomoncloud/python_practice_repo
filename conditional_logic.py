@@ -25,3 +25,6 @@ if is_friend or is_user:
     print("Friends")
 
 # basically our python code will look at the first condition, for ex, here because is_friend is true it wont look at user
+# logical operators < > == 
+# example of short circuiting using logical operators
+print(1 < 2 > 3 < 4)
