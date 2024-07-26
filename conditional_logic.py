@@ -8,3 +8,6 @@ if is_old and is_licenced:
 else:
     print('You are not eligible to drive')
 
+# truthy values are basically values that are considered true when used in a boolean context
+# falsy is the opposite
+# look up python truthiness and truth table on google for example
