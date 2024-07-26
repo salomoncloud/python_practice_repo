@@ -11,3 +11,9 @@ else:
 # truthy values are basically values that are considered true when used in a boolean context
 # falsy is the opposite
 # look up python truthiness and truth table on google for example
+
+# ternary operator
+# else if shortcut for cleaner code - operation that evaluates to something based on the condition that its true or not
+# condition_if_true if condition else condition_if_else
+is_friend = True
+can_message = "Message allowed" if is_friend else "Not allowed to message"
