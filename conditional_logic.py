@@ -38,5 +38,5 @@ if is_Forward and is_top_prospect:
 else:
     print("You will be picked later in the first round.")
 
-draft_results = "You're going first overall" if is_top_scorer else "You will slip to the second round"
+draft_results = "You're going first overall!" if is_top_scorer else "You will slip to the second round"
 print(draft_results)
