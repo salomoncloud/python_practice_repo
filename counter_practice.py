@@ -18,9 +18,9 @@ user = {
 }
 
 queue = {
-    'Gcapacity': 191,
-    'Rcapacity': 243,
-    'Scapacity': 319,
+    'Gcapacity': 41,
+    'Rcapacity': 74,
+    'Scapacity': 19,
 }
 
 # Counters for the current number of patients in each hospital
@@ -34,7 +34,7 @@ def GeorgeH():
     checkin = int(input("Enter the number of patients: "))
     if current_patients['George'] + checkin <= queue['Gcapacity']:
         current_patients['George'] += checkin
-        print(f"Your position in the queue is: {current_patients['George']}")
+        print(f"Your position in the queue is: {current_patients['George']} + {queue['Gcapacity']}")
         print("Your waiting time is 3 Hours")
     else:
         print("Hospital is at full capacity. Please wait or choose another hospital.")
@@ -43,7 +43,7 @@ def RegisH():
     checkin = int(input("Enter the number of patients: "))
     if current_patients['Regis'] + checkin <= queue['Rcapacity']:
         current_patients['Regis'] += checkin
-        print(f"Your position in the queue is: {current_patients['Regis']}")
+        print(f"Your position in the queue is: {current_patients['Regis']} + {queue['Rcapacity']}")
         print("Your waiting time is 2 Hours")
     else:
         print("Hospital is at full capacity. Please wait or choose another hospital.")
@@ -52,7 +52,7 @@ def SalomonH():
     checkin = int(input("Enter the number of patients: "))
     if current_patients['Salomon'] + checkin <= queue['Scapacity']:
         current_patients['Salomon'] += checkin
-        print(f"Your position in the queue is: {current_patients['Salomon']}")
+        print(f"Your position in the queue is: {current_patients['Salomon']} + {queue['Scapacity']}")
         print("Your waiting time is 4 Hours")
     else:
         print("Hospital is at full capacity. Please wait or choose another hospital.")
