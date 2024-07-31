@@ -7,3 +7,5 @@ for item in waiting_list:
     counter = counter + item
 
 print(counter)
+
+# loop runs code over and over after every value, so setting a counter variable outside the loop you can ensure that counter wont change after adding every piece of the list
