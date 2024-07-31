@@ -16,7 +16,7 @@ print(counter)
 user = {
     'id': 123456789,   
 }
-
+# Total max capacity for each hospital
 queue = {
     'Gcapacity': 45,
     'Rcapacity': 75,
