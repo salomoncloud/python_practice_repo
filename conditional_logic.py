@@ -48,3 +48,10 @@ is_innocent = True
 
 if is_innocent and not is_criminal:
     print("You're free to go")
+
+# for loops --- run lines of code over and over and over
+# ex - for (variable for each item after the in) in 'iretable':
+
+for item in (1,2,3,4,5):
+    print(item) # if you were to add the print item 3 more time it would print out those set of numbers 3 more times - hence looping
+
