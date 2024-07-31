@@ -59,3 +59,23 @@ for item in (1,2,3,4,5):
 print(item)
      # if you were to add the print item 3 more time it would print out those set of numbers 3 more times - hence looping
 # however if i add that last print the way it is- breaking that identation rule - its only going to print 5 because its only looking at its one singular set, running through that, ending at 5
+
+# you can also nest another for loop inside of a for loop, nested loops
+
+# iretable --- object or collection that can be iterated over- list, dictionary, tuple, set, string
+# iterate --- one by one check each item in the collection
+# ex
+
+users = {
+    'name': 'Borat',
+    'age': 57,
+    'will_get_this': True
+}
+
+for item in users.items():
+    print(item)
+
+# or we can also go straight for the values this way
+
+for item in users.values():
+    print(item)
