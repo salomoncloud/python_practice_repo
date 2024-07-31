@@ -79,3 +79,17 @@ for item in users.items():
 
 for item in users.values():
     print(item)
+
+# can do only for keys like this
+
+for item in users.keys():
+    print(item)
+
+# we can also print seperatly the items, for example name and borat
+
+for item in users.items():
+    key, value = item
+    print(key, value)
+# or
+for key, value in users.items():
+    print(key, value)
