@@ -53,5 +53,9 @@ if is_innocent and not is_criminal:
 # ex - for (variable for each item after the in) in 'iretable':
 
 for item in (1,2,3,4,5):
-    print(item) # if you were to add the print item 3 more time it would print out those set of numbers 3 more times - hence looping
-
+    print(item)
+    print(item)
+    print(item)
+print(item)
+     # if you were to add the print item 3 more time it would print out those set of numbers 3 more times - hence looping
+# however if i add that last print the way it is- breaking that identation rule - its only going to print 5 because its only looking at its one singular set, running through that, ending at 5
