@@ -14,67 +14,62 @@ print(counter)
 
 # Hospital Queue
 user = {
-    'id' : 123456789,   
-}
-queue ={
-'Gcapacity':50,
-'Rcapacity':40,
-'Scapacity':30,
+    'id': 123456789,   
 }
 
+queue = {
+    'Gcapacity': 191,
+    'Rcapacity': 243,
+    'Scapacity': 319,
+}
+
+# Counters for the current number of patients in each hospital
+current_patients = {
+    'George': 0,
+    'Regis': 0,
+    'Salomon': 0,
+}
 
 def GeorgeH():
-    while True:
-        checkin = int(input("Enter the number of patient : "))
-        result = queue['Gcapacity'] + checkin
-        if result < queue['Gcapacity']:
-            print("Your waiting time is 3 Hours")
-        else:
-            result > queue['Gcapacity'] 
-            print("Your waiting time is 6 Hours")
-            return query
-        
-
+    checkin = int(input("Enter the number of patients: "))
+    if current_patients['George'] + checkin <= queue['Gcapacity']:
+        current_patients['George'] += checkin
+        print(f"Your position in the queue is: {current_patients['George']}")
+        print("Your waiting time is 3 Hours")
+    else:
+        print("Hospital is at full capacity. Please wait or choose another hospital.")
+    
 def RegisH():
-    checkin = int(input("Enter the number of patient : "))
-    result = queue['Rcapacity'] + checkin
-    if result < queue['Rcapacity']:
+    checkin = int(input("Enter the number of patients: "))
+    if current_patients['Regis'] + checkin <= queue['Rcapacity']:
+        current_patients['Regis'] += checkin
+        print(f"Your position in the queue is: {current_patients['Regis']}")
         print("Your waiting time is 2 Hours")
     else:
-        result > queue['Rcapacity'] 
-        print("Your waiting time is 5 Hours")
-        return query
+        print("Hospital is at full capacity. Please wait or choose another hospital.")
     
-    
-
 def SalomonH():
-    checkin = int(input("Enter the number of patient : "))
-    result = queue['Scapacity'] + checkin
-    if result < queue['Scapacity']:
+    checkin = int(input("Enter the number of patients: "))
+    if current_patients['Salomon'] + checkin <= queue['Scapacity']:
+        current_patients['Salomon'] += checkin
+        print(f"Your position in the queue is: {current_patients['Salomon']}")
         print("Your waiting time is 4 Hours")
     else:
-        result > queue['Scapacity'] 
-        print("Your waiting time is 7 Hours")
-        return query
-     
-     
+        print("Hospital is at full capacity. Please wait or choose another hospital.")
+
 is_quit = False
 
 print('')
-
 print("Welcome to the Hospital System Queue")
-resoan = str(input('Symptoms:'))
+symptoms = str(input('Symptoms: '))
 fname = str(input('Please enter your first name: '))
 lname = str(input('Please enter your last name: '))
 dob = int(input('Please enter your date of birth: '))
 id = int(input('Please enter your Insurance Number: '))
 
-
-
-if id ==  user['id']:
-    while is_quit == False:
-        print(" George Hospital Enter 1\n Regis Hospital Enter 2 \n Salomon Hospital Enter 3 \n Logout 4")
-
+if id == user['id']:
+    while not is_quit:
+        print("\nGeorge Hospital Enter 1\nRegis Hospital Enter 2\nSalomon Hospital Enter 3\nLogout Enter 4")
         query = int(input("Please Choose a Hospital: "))
 
         if query == 1:
@@ -85,8 +80,7 @@ if id ==  user['id']:
             SalomonH()
         elif query == 4:
             is_quit = True
-
         else:
-            print("Please enter a correct value ")
+            print("Please enter a correct value")
 else:
     print("Please verify the information entered")
