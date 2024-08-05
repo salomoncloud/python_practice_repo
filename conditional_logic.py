@@ -102,3 +102,7 @@ for number in range(100):
     print (number) # you will get numbers 1 to 100
 
 # a better way is to do (0, 100) but you can also do a stepover like this (0, 100, 2) which will get to 100 by even numbers
+# you can do (100, 0, -1) to descend, and can also wrap the range in a list to run these loops into organized lists
+# ex
+for _ in range(2):
+    print(list(range(100, 0, -2)))
