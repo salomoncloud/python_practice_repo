@@ -101,3 +101,4 @@ print(range(100)) # you will get range(0, 100) - where this can be useful is for
 for number in range(100):
     print (number) # you will get numbers 1 to 100
 
+# a better way is to do (0, 100) but you can also do a stepover like this (0, 100, 2) which will get to 100 by even numbers
