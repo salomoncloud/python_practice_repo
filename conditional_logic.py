@@ -93,3 +93,11 @@ for item in users.items():
 # or
 for key, value in users.items():
     print(key, value)
+
+# range() - special object that produces a sequence of int from start to stop
+
+print(range(100)) # you will get range(0, 100) - where this can be useful is for loops
+
+for number in range(100):
+    print (number) # you will get numbers 1 to 100
+
